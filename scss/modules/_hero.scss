@@ -1,0 +1,30 @@
+.hero-unit {
+  padding: 1em;
+}
+
+.hero-title {
+  color: $color-mute;
+  margin-bottom: 0;
+  font-size: em(48px);
+}
+
+.hero-title--highlight {
+  color: $color-highlight;
+}
+
+.hero-subtitle {
+  font-weight: 100;
+  font-size: 2em;
+}
+
+.hero-intro {
+  color: $color-base;
+  max-width: 680px;
+  font-size: 1.4em;
+  line-height: 1.8;
+}
+
+.email-signup {
+  margin-top: 2.618em;
+  max-width: 380px;
+}

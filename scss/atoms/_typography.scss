@@ -1,0 +1,24 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: em(16px);
+  line-height: 1.45;
+  color: $color-mute;
+
+  @media (max-width: 420px) {
+    font-size: .8em;
+  }
+
+  @media (min-width: em(420px)) and (max-width: em(680px)) {
+    font-size: .9em;
+  }
+}
+
+h1, h2, h3, h4 {
+  margin-top: 0;
+  margin-bottom: .309em;
+  font-style: italic;
+}
+
+h1 {
+  font-size: em(38px);
+}
